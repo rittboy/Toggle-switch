@@ -5,9 +5,9 @@ const modeStatus = document.querySelector('.mode-status');
 function toggleMode(){
   body.classList.toggle('dark-mode');
 
-  const modeMessage = body.classList.contains('dark-mode') ? 'Dark Mode' : "Light Mode"
+  const modeMessage = body.classList.contains('dark-mode') ? 'Dark Mode' : 'Light Mode';
 
   modeStatus.innerText = "Currently in " + modeMessage;
 }
 
-modeToggle.addEventListener('click', toggleMode);
+modeToggle.addEventListener("click", toggleMode);
